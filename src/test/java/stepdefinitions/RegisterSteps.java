@@ -51,7 +51,6 @@ public class RegisterSteps {
 
     @When("user enters mismatching passwords")
     public void enterMismatchedPasswords() {
-
         System.out.println(
                 driver.findElement(By.id("signup_basketballrole_19"))
                         .getAttribute("outerHTML")
